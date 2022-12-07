@@ -1,0 +1,8 @@
+
+
+services:
+  helloworld:
+    build:
+      context: ./
+      Ports:
+        -5000:5000
